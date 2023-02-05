@@ -89,13 +89,23 @@ nav .two-highlight{
     border-radius: 5px;
     color: #FF5959;
 }
+/* Hide Arrows From Input Number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
 input{
     font-size: 18px;
     color: #B3B3B3;
     border: none transparent;
     outline: none;
-    margin: 75px 20px 10px 600px;
+    margin: 75px 20px 10px 600px;       
 }
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
 hr{
     width: 50%;
     margin-left: 360px;
