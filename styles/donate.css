@@ -189,7 +189,7 @@ hr{
  .their-lives{
     display: flex;
     align-items: center;
-    margin: 0 200px 2px 150px;
+    margin: 0 200px 0 150px;
  }
  .their-lives-title{
     font-weight: 700;
@@ -206,6 +206,32 @@ hr{
  .lives-description-two{
     font-size: 18px;
     color: #707070;
-    margin: 25px 150px 25px 0 ;
+    margin: 25px 150px 0 0 ;
  }
- 
+
+ /* They need us to survive styles */
+ .survive{
+    display: flex;
+    align-items: center;
+    margin: 0 200px 0 150px;
+ }
+ .survive-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin: 0 150px 25px 70px;
+ }
+ .survive-description{
+    font-size: 18px;
+    color: #707070;
+    /* margin: 0 70px 0 70px; */
+    margin: 0 80px 0 70px;
+ }
+ .survive-description-two{
+    font-size: 18px;
+    color: #707070;
+    margin: 25px 80px 40px 70px;
+ }
+ .survive-section .btn-primary{
+    margin: 0 0 0 70px;
+ }
