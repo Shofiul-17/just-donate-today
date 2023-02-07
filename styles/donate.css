@@ -182,6 +182,30 @@ hr{
  }
  .purpose-description{
     color: #707070;
-    margin-left: 25px;
-    margin-bottom: 60px;
+    margin: 0 20px 60px 25px;
  }
+
+ /* Their lives depend on your donation Section Styles */
+ .their-lives{
+    display: flex;
+    align-items: center;
+    margin: 0 200px 2px 150px;
+ }
+ .their-lives-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-right: 100px;
+    margin-bottom: 25px;
+ }
+ .their-lives-description{
+    font-size: 18px;
+    color: #707070;
+    margin: 0 150px 0 0;
+ }
+ .lives-description-two{
+    font-size: 18px;
+    color: #707070;
+    margin: 25px 150px 25px 0 ;
+ }
+ 
