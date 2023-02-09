@@ -282,12 +282,19 @@ hr{
 }
 
 /* Footer / Be Humble styles */
-/* .footer-title{ */
-   /* font-family: 'Lobster'; */
-   /* font-weight: 400; */
-   /* font-size: 36px; */
-   /* text-align: center; */
-   /* letter-spacing: 0.5px;   */
-   /* color: #FF5959; */
-   /* background: #0B0D17; */
-/* } */
+footer{
+   text-align: center;
+   width: 1440px;
+   height: 180px;
+   background: #0B0D17;
+   margin-top: 130px;
+}
+.footer-title{
+   font-size: 36px;
+   color: #FF5959;
+   padding-top: 45px;
+   padding-bottom: 25px;
+}
+.footer-description{
+   color: #D9DBE1;
+}
